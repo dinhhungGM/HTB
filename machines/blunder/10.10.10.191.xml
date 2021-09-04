@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Tue Aug 31 05:56:00 2021 as: nmap -sC -sV -A -p- -oA 10.10.10.191 -v 10.10.10.191 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -A -p- -oA 10.10.10.191 -v 10.10.10.191" start="1630403760" startstr="Tue Aug 31 05:56:00 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1630403760"/>
+<taskend task="NSE" time="1630403760"/>
+<taskbegin task="NSE" time="1630403760"/>
+<taskend task="NSE" time="1630403760"/>
+<taskbegin task="NSE" time="1630403760"/>
+<taskend task="NSE" time="1630403760"/>
+<taskbegin task="Ping Scan" time="1630403760"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.191" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1630403760" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1630403760"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1630403760"/>
+<taskbegin task="Connect Scan" time="1630403760"/>
+<taskprogress task="Connect Scan" time="1630403791" percent="17.55" remaining="146" etc="1630403937"/>
+<taskprogress task="Connect Scan" time="1630403821" percent="45.93" remaining="72" etc="1630403893"/>
+<taskend task="Connect Scan" time="1630403866" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1630403867"/>
+<taskend task="Service scan" time="1630403873" extrainfo="1 service on 1 host"/>
+<taskbegin task="NSE" time="1630403873"/>
+<taskend task="NSE" time="1630403874"/>
+<taskbegin task="NSE" time="1630403874"/>
+<taskend task="NSE" time="1630403874"/>
+<taskbegin task="NSE" time="1630403874"/>
+<taskend task="NSE" time="1630403874"/>
+<host starttime="1630403760" endtime="1630403874"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.10.10.191" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65533">
+<extrareasons reason="no-responses" count="65533"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.41" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.41</cpe></service><script id="http-favicon" output="Unknown favicon MD5: A0F0E5D852F0E3783AF700B6EE9D00DA"/><script id="http-generator" output="Blunder"/><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-server-header" output="Apache/2.4.41 (Ubuntu)"><elem>Apache/2.4.41 (Ubuntu)</elem>
+</script><script id="http-title" output="Blunder | A blunder of interesting facts"><elem key="title">Blunder | A blunder of interesting facts</elem>
+</script></port>
+</ports>
+<times srtt="36662" rttvar="961" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1630403874"/>
+<taskend task="NSE" time="1630403874"/>
+<taskbegin task="NSE" time="1630403874"/>
+<taskend task="NSE" time="1630403874"/>
+<taskbegin task="NSE" time="1630403874"/>
+<taskend task="NSE" time="1630403874"/>
+<runstats><finished time="1630403874" timestr="Tue Aug 31 05:57:54 2021" summary="Nmap done at Tue Aug 31 05:57:54 2021; 1 IP address (1 host up) scanned in 113.99 seconds" elapsed="113.99" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

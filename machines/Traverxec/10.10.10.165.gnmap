@@ -1,0 +1,5 @@
+# Nmap 7.91 scan initiated Fri Sep  3 06:19:12 2021 as: nmap -sC -sV -A -p- -oA 10.10.10.165 -v 10.10.10.165
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.165 ()	Status: Up
+Host: 10.10.10.165 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.9p1 Debian 10+deb10u1 (protocol 2.0)/, 80/open/tcp//http//nostromo 1.9.6/	Ignored State: filtered (65533)
+# Nmap done at Fri Sep  3 06:21:04 2021 -- 1 IP address (1 host up) scanned in 112.18 seconds

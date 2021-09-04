@@ -1,0 +1,70 @@
+DirBuster 1.0-RC1 - Report
+http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project
+Report produced on Wed Sep 01 04:30:32 EDT 2021
+--------------------------------
+
+http://10.10.10.160:80
+--------------------------------
+Directories found during testing:
+
+Dirs found with a 200 response:
+
+/
+/images/
+/upload/
+/js/
+/images/icons/
+/css/
+/fonts/
+
+Dirs found with a 403 response:
+
+/icons/
+/server-status/
+
+
+--------------------------------
+Files found during testing:
+
+Files found with a 200 responce:
+
+/index.html
+/js/bootstrap.min.js
+/js/jquery.min.js
+/js/custom.js
+/js/all.js
+/js/animate.js
+/js/bootstrap.js
+/js/lightbox.js
+/js/carousel.js
+/css/all.css
+/js/parallax.js
+/js/tether.min.js
+/css/animate.css
+/css/animate.min.css
+/css/bootstrap-grid.css
+/css/bootstrap-grid.min.css
+/css/bootstrap-reboot.css
+/css/bootstrap-reboot.min.css
+/css/bootstrap.css
+/css/carousel.css
+/css/bootstrap.min.css
+/css/colors.css
+/css/font-awesome.css
+/css/font-awesome.min.css
+/css/lightbox.css
+/css/responsive.css
+/fonts/Flaticon.eot
+/fonts/Flaticon.svg
+/fonts/Flaticon.ttf
+/fonts/Flaticon.woff
+/fonts/flaticon.css
+/fonts/fontawesome-webfont.eot
+/fonts/fontawesome-webfont.ttf
+/fonts/fontawesome-webfont.woff
+/fonts/fontawesome-webfont.svg
+/fonts/fontawesome-webfont.woff2
+/fonts/FontAwesome.otf
+
+
+--------------------------------
