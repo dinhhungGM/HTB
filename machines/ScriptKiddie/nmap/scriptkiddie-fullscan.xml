@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Sun Sep  5 02:53:29 2021 as: nmap -sC -sV -p- -oA nmap/scriptkiddie-fullscan -vvv 10.10.10.226 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -p- -oA nmap/scriptkiddie-fullscan -vvv 10.10.10.226" start="1630824809" startstr="Sun Sep  5 02:53:29 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="3"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1630824810"/>
+<taskend task="NSE" time="1630824810"/>
+<taskbegin task="NSE" time="1630824810"/>
+<taskend task="NSE" time="1630824810"/>
+<taskbegin task="NSE" time="1630824810"/>
+<taskend task="NSE" time="1630824810"/>
+<taskbegin task="Ping Scan" time="1630824810"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.226" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1630824810" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1630824810"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1630824810"/>
+<taskbegin task="Connect Scan" time="1630824810"/>
+<taskend task="Connect Scan" time="1630824825" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1630824825"/>
+<taskend task="Service scan" time="1630824831" extrainfo="2 services on 1 host"/>
+<taskbegin task="NSE" time="1630824831"/>
+<taskend task="NSE" time="1630824833"/>
+<taskbegin task="NSE" time="1630824833"/>
+<taskend task="NSE" time="1630824833"/>
+<taskbegin task="NSE" time="1630824833"/>
+<taskend task="NSE" time="1630824833"/>
+<host starttime="1630824810" endtime="1630824833"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="10.10.10.226" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65533">
+<extrareasons reason="conn-refused" count="65533"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="8.2p1 Ubuntu 4ubuntu0.1" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.2p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  3072 3c:65:6b:c2:df:b9:9d:62:74:27:a7:b8:a9:d3:25:2c (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/YB1g/YHwZNvTzj8lysM+SzX6dZzRbfF24y3ywkhai4pViGEwUklIPkEvuLSGH97NJ4y8r9uUXzyoq3iuVJ/vGXiFlPCrg+QDp7UnwANBmDqbVLucKdor+JkWHJJ1h3ftpEHgol54tj+6J7ftmaOR29Iwg+FKtcyNG6PY434cfA0Pwshw6kKgFa+HWljNl+41H3WVua4QItPmrh+CrSoaA5kCe0FAP3c2uHcv2JyDjgCQxmN1GoLtlAsEznHlHI1wycNZGcHDnqxEmovPTN4qisOKEbYfy2mu1Eqq3Phv8UfybV8c60wUqGtClj3YOO1apDZKEe8eZZqy5eXU8mIO+uXcp5zxJ/Wrgng7WTguXGzQJiBHSFq52fHFvIYSuJOYEusLWkGhiyvITYLWZgnNL+qAVxZtP80ZTq+lm4cJHJZKl0OYsmqO0LjlMOMTPFyA+W2IOgAmnM+miSmSZ6n6pnSA+LE2Pj01egIhHw5+duAYxUHYOnKLVak1WWk/C68=&#xa;  256 b9:a1:78:5d:3c:1b:25:e0:3c:ef:67:8d:71:d3:a3:ec (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJA31QhiIbYQMUwn/n3+qcrLiiJpYIia8HdgtwkI8JkCDm2n+j6dB3u5I17IOPXE7n5iPiW9tPF3Nb0aXmVJmlo=&#xa;  256 8b:cf:41:82:c6:ac:ef:91:80:37:7c:c9:45:11:e8:43 (ED25519)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOWjCdxetuUPIPnEGrowvR7qRAR7nuhUbfFraZFmbIr4"><table>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABgQC/YB1g/YHwZNvTzj8lysM+SzX6dZzRbfF24y3ywkhai4pViGEwUklIPkEvuLSGH97NJ4y8r9uUXzyoq3iuVJ/vGXiFlPCrg+QDp7UnwANBmDqbVLucKdor+JkWHJJ1h3ftpEHgol54tj+6J7ftmaOR29Iwg+FKtcyNG6PY434cfA0Pwshw6kKgFa+HWljNl+41H3WVua4QItPmrh+CrSoaA5kCe0FAP3c2uHcv2JyDjgCQxmN1GoLtlAsEznHlHI1wycNZGcHDnqxEmovPTN4qisOKEbYfy2mu1Eqq3Phv8UfybV8c60wUqGtClj3YOO1apDZKEe8eZZqy5eXU8mIO+uXcp5zxJ/Wrgng7WTguXGzQJiBHSFq52fHFvIYSuJOYEusLWkGhiyvITYLWZgnNL+qAVxZtP80ZTq+lm4cJHJZKl0OYsmqO0LjlMOMTPFyA+W2IOgAmnM+miSmSZ6n6pnSA+LE2Pj01egIhHw5+duAYxUHYOnKLVak1WWk/C68=</elem>
+<elem key="bits">3072</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">3c656bc2dfb99d627427a7b8a9d3252c</elem>
+</table>
+<table>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJA31QhiIbYQMUwn/n3+qcrLiiJpYIia8HdgtwkI8JkCDm2n+j6dB3u5I17IOPXE7n5iPiW9tPF3Nb0aXmVJmlo=</elem>
+<elem key="bits">256</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="fingerprint">b9a1785d3c1b25e03cef678d71d3a3ec</elem>
+</table>
+<table>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIOWjCdxetuUPIPnEGrowvR7qRAR7nuhUbfFraZFmbIr4</elem>
+<elem key="bits">256</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="fingerprint">8bcf4182c6acef9180377cc94511e843</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="5000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Werkzeug httpd" version="0.16.1" extrainfo="Python 3.8.5" method="probed" conf="10"><cpe>cpe:/a:python:python:3.8.5</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: HEAD GET POST OPTIONS"><table key="Supported Methods">
+<elem>HEAD</elem>
+<elem>GET</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-server-header" output="Werkzeug/0.16.1 Python/3.8.5"><elem>Werkzeug/0.16.1 Python/3.8.5</elem>
+</script><script id="http-title" output="k1d&apos;5 h4ck3r t00l5"><elem key="title">k1d&apos;5 h4ck3r t00l5</elem>
+</script></port>
+</ports>
+<times srtt="38951" rttvar="678" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1630824833"/>
+<taskend task="NSE" time="1630824833"/>
+<taskbegin task="NSE" time="1630824833"/>
+<taskend task="NSE" time="1630824833"/>
+<taskbegin task="NSE" time="1630824833"/>
+<taskend task="NSE" time="1630824833"/>
+<runstats><finished time="1630824833" timestr="Sun Sep  5 02:53:53 2021" summary="Nmap done at Sun Sep  5 02:53:53 2021; 1 IP address (1 host up) scanned in 23.94 seconds" elapsed="23.94" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

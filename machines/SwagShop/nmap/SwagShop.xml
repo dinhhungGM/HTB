@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Sun Sep  5 06:43:42 2021 as: nmap -sC -sV -p- -oA nmap/SwagShop -vvv 10.10.10.140 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -p- -oA nmap/SwagShop -vvv 10.10.10.140" start="1630838622" startstr="Sun Sep  5 06:43:42 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="3"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1630838622"/>
+<taskend task="NSE" time="1630838622"/>
+<taskbegin task="NSE" time="1630838622"/>
+<taskend task="NSE" time="1630838622"/>
+<taskbegin task="NSE" time="1630838622"/>
+<taskend task="NSE" time="1630838622"/>
+<taskbegin task="Ping Scan" time="1630838622"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.140" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1630838622" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1630838622"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1630838622"/>
+<taskbegin task="Connect Scan" time="1630838622"/>
+<taskend task="Connect Scan" time="1630838637" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1630838637"/>
+<taskend task="Service scan" time="1630838643" extrainfo="2 services on 1 host"/>
+<taskbegin task="NSE" time="1630838643"/>
+<taskend task="NSE" time="1630838645"/>
+<taskbegin task="NSE" time="1630838645"/>
+<taskend task="NSE" time="1630838645"/>
+<taskbegin task="NSE" time="1630838645"/>
+<taskend task="NSE" time="1630838645"/>
+<host starttime="1630838622" endtime="1630838645"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.10.10.140" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65533">
+<extrareasons reason="conn-refused" count="65533"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2p2 Ubuntu 4ubuntu2.8" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2p2</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 b6:55:2b:d2:4e:8f:a3:81:72:61:37:9a:12:f6:24:ec (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCgTCefp89MPJm2oaJqietdslSBur+eCMVQRW19iUL2DQSdZrIctssf/ws4HWN9DuXWB1p7OR9GWQhjeFv+xdb8OLy6EQ72zQOk+cNU9ANi72FZIkpD5A5vHUyhhUSUcnn6hwWMWW4dp6BFVxczAiutSWBVIm2YLmcqwOEOJhfXLVvsVqu8KUmybJQWFaJIeLVHzVgrF1623ekDXMwT7Ktq49RkmqGGE+e4pRy5pWlL2BPVcrSv9nMRDkJTXuoGQ53CRcp9VVi2V7flxTd6547oSPck1N+71Xj/x17sMBDNfwik/Wj3YLjHImAlHNZtSKVUT9Ifqwm973YRV9qtqtGT&#xa;  256 2e:30:00:7a:92:f0:89:30:59:c1:77:56:ad:51:c0:ba (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEG18M3bq7HSiI8XlKW9ptWiwOvrIlftuWzPEmynfU6LN26hP/qMJModcHS+idmLoRmZnC5Og9sj5THIf0ZtxPY=&#xa;  256 4c:50:d5:f2:70:c5:fd:c4:b2:f0:bc:42:20:32:64:34 (ED25519)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINmmpsnVsVEZ9KB16eRdxpe75vnX8B/AZMmhrN2i4ES7"><table>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQCgTCefp89MPJm2oaJqietdslSBur+eCMVQRW19iUL2DQSdZrIctssf/ws4HWN9DuXWB1p7OR9GWQhjeFv+xdb8OLy6EQ72zQOk+cNU9ANi72FZIkpD5A5vHUyhhUSUcnn6hwWMWW4dp6BFVxczAiutSWBVIm2YLmcqwOEOJhfXLVvsVqu8KUmybJQWFaJIeLVHzVgrF1623ekDXMwT7Ktq49RkmqGGE+e4pRy5pWlL2BPVcrSv9nMRDkJTXuoGQ53CRcp9VVi2V7flxTd6547oSPck1N+71Xj/x17sMBDNfwik/Wj3YLjHImAlHNZtSKVUT9Ifqwm973YRV9qtqtGT</elem>
+<elem key="fingerprint">b6552bd24e8fa3817261379a12f624ec</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048</elem>
+</table>
+<table>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEG18M3bq7HSiI8XlKW9ptWiwOvrIlftuWzPEmynfU6LN26hP/qMJModcHS+idmLoRmZnC5Og9sj5THIf0ZtxPY=</elem>
+<elem key="fingerprint">2e30007a92f0893059c17756ad51c0ba</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+</table>
+<table>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAINmmpsnVsVEZ9KB16eRdxpe75vnX8B/AZMmhrN2i4ES7</elem>
+<elem key="fingerprint">4c50d5f270c5fdc4b2f0bc4220326434</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="bits">256</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.18" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.18</cpe></service><script id="http-favicon" output="Unknown favicon MD5: 88733EE53676A47FC354A61C32516E82"/><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-server-header" output="Apache/2.4.18 (Ubuntu)"><elem>Apache/2.4.18 (Ubuntu)</elem>
+</script><script id="http-title" output="Did not follow redirect to http://swagshop.htb/"><elem key="redirect_url">http://swagshop.htb/</elem>
+</script></port>
+</ports>
+<times srtt="40856" rttvar="4756" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1630838645"/>
+<taskend task="NSE" time="1630838645"/>
+<taskbegin task="NSE" time="1630838645"/>
+<taskend task="NSE" time="1630838645"/>
+<taskbegin task="NSE" time="1630838645"/>
+<taskend task="NSE" time="1630838645"/>
+<runstats><finished time="1630838645" timestr="Sun Sep  5 06:44:05 2021" summary="Nmap done at Sun Sep  5 06:44:05 2021; 1 IP address (1 host up) scanned in 23.35 seconds" elapsed="23.35" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
